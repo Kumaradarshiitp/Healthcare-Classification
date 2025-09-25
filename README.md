@@ -7,6 +7,7 @@ This project demonstrates a machine learning workflow for classifying healthcare
 
 
 Features
+
 	•	Loads and preprocesses a healthcare dataset (renaming, encoding categorical features, dropping irrelevant columns).
 	•	Performs visual and statistical analysis, including histograms, boxplots, scatterplots, and feature correlation heatmaps.
 	•	Splits data into training and testing sets, applies feature scaling, and trains a KNN classifier to predict “Normal,” “Abnormal,” or “Inconclusive” test outcomes.
@@ -14,6 +15,7 @@ Features
 
 
 Requirements
+
 	•	Python 3.x
 	•	pandas
 	•	seaborn
@@ -24,6 +26,7 @@ Requirements
 Install dependencies with: pip install pandas seaborn matplotlib scikit-learn
 
 Usage
+
 	1.	Place `healthcare_classification.py` and the healthcare dataset (CSV format) in the same directory.
 	2.	Run the script:python healthcare_classification.py
 
@@ -31,9 +34,11 @@ Usage
 
 Dataset Structure
 Key columns required:
+
 	•	Name, Age, Gender, Doctor, Hospital, Room Number, Blood Type, Medical Condition, Date of Admission, Insurance Provider, Billing Amount, Admission Type, Discharge Date, Medication, Test Results.
 
 Output
+
 	•	Visualizations for data distribution and relationships.
 	•	Model accuracy and classification report for medical test results.
 
