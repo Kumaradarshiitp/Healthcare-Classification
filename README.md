@@ -48,14 +48,15 @@ Output
 	•	Normal-resultado: Visualizes “resultado_exame” (exam results - Inconclusive, Normal, Abnormal), corresponding to Diagnostic Results 
 	
 Definition of Each Topic
-	•	Hospital Admission: Information about how and why patients are admitted to a hospital (Elective, Emergency, Urgent).
-	•	Medication: Types of medicines commonly given to patients and their distribution.
-	•	Demographics: Statistical data that describes patient characteristics such as age and gender.
-	•	Insurance: Details about medical insurance providers for patients.
-	•	Healthcare Cost: Data concerning the costs or charges for hospital services and treatments.
-	•	Biological Profile: Inherent patient attributes such as blood type.
-	•	Chronic Conditions: Long-term health problems that individuals might have.
-	•	Diagnostic Results: Outcomes of clinical tests performed for patients.
+
+	  •	Hospital Admission: Information about how and why patients are admitted to a hospital (Elective, Emergency, Urgent).
+	  •	Medication: Types of medicines commonly given to patients and their distribution.
+	  •	Demographics: Statistical data that describes patient characteristics such as age and gender.
+	  •	Insurance: Details about medical insurance providers for patients.
+	  •	Healthcare Cost: Data concerning the costs or charges for hospital services and treatments.
+	  •	Biological Profile: Inherent patient attributes such as blood type.
+	  •	Chronic Conditions: Long-term health problems that individuals might have.
+	  •	Diagnostic Results: Outcomes of clinical tests performed for patients.
 
 
 Emergency-tipo :
@@ -75,6 +76,7 @@ https://github.com/Kumaradarshiitp/Healthcare-Classification/blob/main/Normal%20
 
 
 Histograma de Idade por Gênero
+
     • 	Demographics: The chart compares genders (male and female), which is a key feature in demographic analysis.
 	•	Age Distribution: The x-axis represents different age groups, making age structure the principal variable visualized.
 	•	Gender Analysis: The image makes a direct comparison across genders, highlighting differences or similarities in age frequency between male and female populations
@@ -84,11 +86,12 @@ https://github.com/Kumaradarshiitp/Healthcare-Classification/blob/main/Histogram
 
 Boxplot
 
- •	Value Distribution: The plot shows how billing amounts are spread for each insurer.
+    •	Value Distribution: The plot shows how billing amounts are spread for each insurer.
 	•	Median: The line in each box represents the median value for billing.
 	•	Interquartile Range (IQR): The colored box captures the middle 50% of data (from Q1 to Q3).
 	•	Whiskers/Range: The vertical lines (whiskers) show the spread beyond the IQR, typically up to 1.5 times the IQR from the quartiles.
 	•	Insurance Provider Comparison: Each box represents a different company, enabling direct visual comparison of billing variability and central tendency between providers.
+	
 This chart is useful for identifying differences in billing practices, median costs, and overall variability across insurance providers.
 
 Boxplot:
@@ -96,7 +99,7 @@ https://github.com/Kumaradarshiitp/Healthcare-Classification/blob/main/Boxplot%2
 
 Idade(Age) & Valor de Cobranca (Charge Value or Billing Amount) 
 
-   •	“Idade” (Age) on the horizontal axis, representing the age of individuals.
+    •	“Idade” (Age) on the horizontal axis, representing the age of individuals.
 	•	“Valor de Cobrança” (Billing or Charge Value) on the vertical axis, representing the associated financial charge.
 This visual examines the relationship or distribution pattern between a person’s age and the amount billed, which is a common analysis in fields like healthcare billing, insurance, or finance
 
@@ -104,6 +107,7 @@ Idade(Age) & Valor de Cobranca (Charge Value or Billing Amount) :
 https://github.com/Kumaradarshiitp/Healthcare-Classification/blob/main/Idade.png
 
 Correlation Matrix
+
 	•	idade: Patient age
 	•	genero: Gender
 	•	tipo_sangue: Blood type
