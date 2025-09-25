@@ -41,7 +41,7 @@ Output
 
 
 
-• Emergency-tipo: This image shows the categories and counts for “tipo_admissao” (type of hospital admission such as Elective, Emergency, Urgent) and “medicacao” (medication types like Aspirin, Lipitor, etc.). These topics belong to Hospital Admission and Medication respectively.
+    • Emergency-tipo: This image shows the categories and counts for “tipo_admissao” (type of hospital admission such as Elective, Emergency, Urgent) and “medicacao” (medication types like Aspirin, Lipitor, etc.). These topics belong to Hospital Admission and Medication respectively.
 	•Idade-age-and-genero-gender: Displays the age distribution (“idade”) and gender (“genero”) of patients, belonging to Demographics topics.
 	• Provedora_seguro-valor_cobranca: Shows counts for “provedora_seguro” (insurance providers) and billing amount distribution (“valor_cobranca”), belonging to Insurance and Healthcare Cost topics.
 	•  Tipo_sangue-condicao_medica: Illustrates “tipo_sangue” (blood type) and “condicao_medica” (medical conditions like Diabetes, Asthma, etc.), which belong to Biological Profile and Chronic Conditions topics.
